@@ -4,7 +4,8 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
-#include <string.h>#include <errno.h>
+#include <string.h>
+#include <errno.h>
 #include <stdbool.h>
 const char * IP = "127.0.0.1";
 int PORT = 8800;
